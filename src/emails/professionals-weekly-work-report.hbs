@@ -1,0 +1,195 @@
+---
+layout: default.hbs
+subject: Branded transaction email example
+---
+<span class="preheader">Hey Anze, this is your weekly work report: 28 h ($ 860.00)</span>
+<div class="header">
+	<table>
+		<tr>
+			<td class="align-center">
+				<a href="https://www.poviolabs.com"><img src="../src/img/povio-logo.png" height="50" alt="Mailgun"></a>
+			</td>
+		</tr>
+	</table>
+</div>
+<table class="main">
+	<tr>
+		<td class="wrapper">
+			<table>
+				{{!-- <tr>
+					<td>
+						<p>Example of an email with image asset.</p>
+						<p>You should upload your email images to a CDN, or for smaller file sizes you can also inline them.</p>
+						<p>Should come in handy for branded transactional emails or promotional type emails.</p>
+					</td>
+				</tr> --}}
+				<tr>
+					<td>
+						<h1>Your weekly work report</h1>
+						<h2>Dec 17 - Dec 24 2016 (Week 44) <span class="pull-right"><span class="total-time">28 h</span>
+						<span class="total-amount">$ 860.00</span></span></h2>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						
+						<table class="work-section">
+							<tr>
+								<th class="align-left title" colspan="6">Sallary</th>
+							</tr>
+							<tr>
+								<td class="what">Monday</td>
+								<td class="who"></td>
+								<td class="when">Dec 17</td>
+								<td class="rate align-right"></td>
+								<td class="how-long align-right"></td>
+								<td class="amount align-right">$ 60.00</td>
+							</tr>
+							<tr>
+								<td class="what">Tuesday</td>
+								<td class="who"></td>
+								<td class="when">Dec 18</td>
+								<td class="rate align-right"></td>
+								<td class="how-long align-right"></td>
+								<td class="amount align-right">$ 60.00</td>
+							</tr>
+							<tr>
+								<td class="what">Wednesday</td>
+								<td class="who"></td>
+								<td class="when">Dec 19</td>
+								<td class="rate align-right"></td>
+								<td class="how-long align-right"></td>
+								<td class="amount align-right">$ 60.00</td>
+							</tr>
+							<tr>
+								<td class="what">Christmas</td>
+								<td class="who"></td>
+								<td class="when">Dec 20</td>
+								<td class="rate align-right"></td>
+								<td class="how-long align-right"></td>
+								<td class="amount align-right">$ 60.00</td>
+							</tr>
+							<tr>
+								<td class="what">Thursday</td>
+								<td class="who"></td>
+								<td class="when">Dec 21</td>
+								<td class="rate align-right"></td>
+								<td class="how-long align-right"></td>
+								<td class="amount align-right">$ 60.00</td>
+							</tr>
+							<tr>
+								<td class="what">Friday</td>
+								<td class="who"></td>
+								<td class="when">Dec 22</td>
+								<td class="rate align-right"></td>
+								<td class="how-long align-right"></td>
+								<td class="amount align-right">$ 60.00</td>
+							</tr>
+							<tr>
+								<td class="amount total align-right" colspan="6">$ 360.00</td>
+							</tr>
+						</table>
+
+						<table class="work-section">
+							<tr>
+								<th class="align-left title" colspan="6">Shoobs</th>
+							</tr>
+							<tr>
+								<td class="what">Task name 1</td>
+								<td class="who"></td>
+								<td class="when">Dec 17</td>
+								<td class="rate align-right">$ 5.00 / h</td>
+								<td class="how-long align-right">6 h</td>
+								<td class="amount align-right">$ 30.00</td>
+							</tr>
+							<tr>
+								<td class="what">Task name 2</td>
+								<td class="who"></td>
+								<td class="when">Dec 17</td>
+								<td class="rate align-right">$ 5.00 / h</td>
+								<td class="how-long align-right">4 h</td>
+								<td class="amount align-right">$ 20.00</td>
+							</tr>
+							<tr>
+								<td class="amount total align-right" colspan="6">$ 50.00</td>
+							</tr>
+						</table>
+
+						<table class="work-section">
+							<tr>
+								<th class="align-left title" colspan="6">Shoobs (Lead role)</th>
+							</tr>
+							<tr>
+								<td class="what">Task name 1</td>
+								<td class="who">Matej Konrad</td>
+								<td class="when">Dec 17</td>
+								<td class="rate align-right"></td>
+								<td class="how-long align-right not-timable">4 h</td>
+								<td class="amount align-right">$ 20.00</td>
+							</tr>
+							<tr>
+								<td class="amount total align-right" colspan="6">$ 20.00</td>
+							</tr>
+						</table>
+
+						<table class="work-section">
+							<tr>
+								<th class="align-left title" colspan="6">Fooda</th>
+							</tr>
+							<tr>
+								<td class="what">Task name 1</td>
+								<td class="who"></td>
+								<td class="when">Dec 17</td>
+								<td class="rate align-right">$ 9.00 / h</td>
+								<td class="how-long align-right">6 h</td>
+								<td class="amount align-right">$ 54.00</td>
+							</tr>
+							<tr>
+								<td class="what">Task name 2</td>
+								<td class="who"></td>
+								<td class="when">Dec 17</td>
+								<td class="rate align-right">$ 9.00 / h</td>
+								<td class="how-long align-right">2 h</td>
+								<td class="amount align-right">$ 18.00</td>
+							</tr>
+							<tr>
+								<td class="what">Task name 3</td>
+								<td class="who"></td>
+								<td class="when">Dec 17</td>
+								<td class="rate align-right">$ 9.00 / h</td>
+								<td class="how-long align-right">4 h</td>
+								<td class="amount align-right">$ 36.00</td>
+							</tr>
+							<tr>
+								<td class="amount total align-right" colspan="6">$ 108.00</td>
+							</tr>
+						</table>
+
+						<table class="work-section summary">
+							<tr>
+								<th>
+									<td class="what"></td>
+									<td class="who"></td>
+									<td class="when"></td>
+									<td class="rate summ align-right">Total:</td>
+									<td class="how-long summ align-right">28 h</td>
+									<td class="amount summ align-right">$ 860.00</td>
+								</th>
+							</tr>
+						</table>
+
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+<div class="footer">
+	<table>
+		<tr>
+			<td class="align-center">
+				<p>Something not right?<br>Let us know! Reply to this email ASAP!</p>
+			</td>
+		</tr>
+	</table>
+</div>

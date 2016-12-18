@@ -4,7 +4,7 @@
 
 $padding: 30px; // For consistent padding
 $grey: #f6f6f6; // Background color
-$width: 580px; // Width of the content area
+$width: 660px; // Width of the content area
 $br: 3px; // Border radius
 $btn-br: 5px; // Border radius
 $primary-color: #348eda; // Primary color for buttons and links
@@ -39,3 +39,21 @@ $notice-margin:             10px 0 !default;
 
 $divider-margin:			20px 0 !default;
 $divider-color:				#ccc !default;
+
+// Colors
+// ------------
+
+$border: #dddddd;
+$border: #e6ebf0;
+$povio-light-bg: #e6ebf0;
+$povio-light-text: #596c7b;
+$povio-red: #d15557;
+$povio-damped: #a1b0b8;
+$povio-damped-shade: #bccdd5;
+$povio-dark-blue: #34495e;
+$povio-bright-blue: #44c0ff;
+$povio-bright-blue-shade: #32a2d2;
+$povio-odd-even: #f2f5f7;
+$povio-green: #2ac66f;
+@brand-warning: gold;
+$brand-success: $povio-green;
