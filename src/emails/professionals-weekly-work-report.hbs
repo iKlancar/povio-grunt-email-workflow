@@ -16,17 +16,10 @@ subject: Branded transaction email example
 	<tr>
 		<td class="wrapper">
 			<table>
-				{{!-- <tr>
-					<td>
-						<p>Example of an email with image asset.</p>
-						<p>You should upload your email images to a CDN, or for smaller file sizes you can also inline them.</p>
-						<p>Should come in handy for branded transactional emails or promotional type emails.</p>
-					</td>
-				</tr> --}}
 				<tr>
 					<td>
 						<h1>Your weekly work report</h1>
-						<h2>Dec 17 - Dec 24 2016 (Week 44) <span class="pull-right"><span class="total-time">28 h</span>
+						<h2>Dec 17 - Dec 24 2016 <br class="mobile">(Week 44): <span class="pull-right"><br class="mobile"><br class="mobile"><span class="total-time">28 h</span>
 						<span class="total-amount">$ 860.00</span></span></h2>
 					</td>
 				</tr>
@@ -95,20 +88,20 @@ subject: Branded transaction email example
 								<th class="align-left title" colspan="6">Shoobs</th>
 							</tr>
 							<tr>
-								<td class="what">Task name 1</td>
-								<td class="who"></td>
-								<td class="when">Dec 17</td>
-								<td class="rate align-right">$ 5.00 / h</td>
-								<td class="how-long align-right">6 h</td>
-								<td class="amount align-right">$ 30.00</td>
+								<td class="single what">Task name 1</td>
+								<td class="single who"></td>
+								<td class="single when">Dec 17</td>
+								<td class="single rate align-right">$ 5.00 / h</td>
+								<td class="single how-long align-right">6 h</td>
+								<td class="single amount align-right">$ 30.00</td>
 							</tr>
 							<tr>
-								<td class="what">Task name 2</td>
-								<td class="who"></td>
-								<td class="when">Dec 17</td>
-								<td class="rate align-right">$ 5.00 / h</td>
-								<td class="how-long align-right">4 h</td>
-								<td class="amount align-right">$ 20.00</td>
+								<td class="single what">Task name 2</td>
+								<td class="single who"></td>
+								<td class="single when">Dec 17</td>
+								<td class="single rate align-right">$ 5.00 / h</td>
+								<td class="single how-long align-right">4 h</td>
+								<td class="single amount align-right">$ 20.00</td>
 							</tr>
 							<tr>
 								<td class="amount total align-right" colspan="6">$ 50.00</td>
@@ -120,12 +113,12 @@ subject: Branded transaction email example
 								<th class="align-left title" colspan="6">Shoobs (Lead role)</th>
 							</tr>
 							<tr>
-								<td class="what">Task name 1</td>
-								<td class="who">Matej Konrad</td>
-								<td class="when">Dec 17</td>
-								<td class="rate align-right"></td>
-								<td class="how-long align-right not-timable">4 h</td>
-								<td class="amount align-right">$ 20.00</td>
+								<td class="single what">Task name 1</td>
+								<td class="single who">Matej Konrad</td>
+								<td class="single when">Dec 17</td>
+								<td class="single rate align-right"></td>
+								<td class="single how-long align-right not-timable">4 h</td>
+								<td class="single amount align-right">$ 20.00</td>
 							</tr>
 							<tr>
 								<td class="amount total align-right" colspan="6">$ 20.00</td>
@@ -137,28 +130,28 @@ subject: Branded transaction email example
 								<th class="align-left title" colspan="6">Fooda</th>
 							</tr>
 							<tr>
-								<td class="what">Task name 1</td>
-								<td class="who"></td>
-								<td class="when">Dec 17</td>
-								<td class="rate align-right">$ 9.00 / h</td>
-								<td class="how-long align-right">6 h</td>
-								<td class="amount align-right">$ 54.00</td>
+								<td class="single what">Task name 1</td>
+								<td class="single who"></td>
+								<td class="single when">Dec 17</td>
+								<td class="single rate align-right">$ 9.00 / h</td>
+								<td class="single how-long align-right">6 h</td>
+								<td class="single amount align-right">$ 54.00</td>
 							</tr>
 							<tr>
-								<td class="what">Task name 2</td>
-								<td class="who"></td>
-								<td class="when">Dec 17</td>
-								<td class="rate align-right">$ 9.00 / h</td>
-								<td class="how-long align-right">2 h</td>
-								<td class="amount align-right">$ 18.00</td>
+								<td class="single what">Task name 2</td>
+								<td class="single who"></td>
+								<td class="single when">Dec 17</td>
+								<td class="single rate align-right">$ 9.00 / h</td>
+								<td class="single how-long align-right">2 h</td>
+								<td class="single amount align-right">$ 18.00</td>
 							</tr>
 							<tr>
-								<td class="what">Task name 3</td>
-								<td class="who"></td>
-								<td class="when">Dec 17</td>
-								<td class="rate align-right">$ 9.00 / h</td>
-								<td class="how-long align-right">4 h</td>
-								<td class="amount align-right">$ 36.00</td>
+								<td class="single what">Task name 3</td>
+								<td class="single who"></td>
+								<td class="single when">Dec 17</td>
+								<td class="single rate align-right">$ 9.00 / h</td>
+								<td class="single how-long align-right">4 h</td>
+								<td class="single amount align-right">$ 36.00</td>
 							</tr>
 							<tr>
 								<td class="amount total align-right" colspan="6">$ 108.00</td>
@@ -178,13 +171,18 @@ subject: Branded transaction email example
 							</tr>
 						</table>
 
+						<p class="check align-center">
+							<span class="question">Something not right?</span><br>
+							<span class="reply">Let us know! Reply to this email ASAP!</span>
+						</p>
+
 					</td>
 				</tr>
 			</table>
 		</td>
 	</tr>
 </table>
-<div class="footer">
+{{!-- <div class="footer">
 	<table>
 		<tr>
 			<td class="align-center">
@@ -193,3 +191,4 @@ subject: Branded transaction email example
 		</tr>
 	</table>
 </div>
+ --}}
